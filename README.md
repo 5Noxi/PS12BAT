@@ -8,7 +8,7 @@ Preview:
 - https://discord.gg/E2ybG4j9jU
 
 ## How it works 
-Converts a .ps1 file to a .bat by encoding the PowerShell script in Base64 and embedding it in a Batch file for execution
+Converts a `.ps1` file to a `.bat` by encoding the powershell script in base64 and embedding it in a batch file for execution, using the following command:
 ```
 powershell -ExecutionPolicy Bypass -Command "iex ([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String('::Base64Payload::')))"
 ```
