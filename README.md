@@ -1,7 +1,7 @@
 # PS12BAT
 Converts `.ps1` files to a standalone `.bat` files via base64. Won't work, if it includes any banner with ASCII art!
 
-Preview:
+**Preview:**
 ![ps12batpre](https://github.com/5Noxi/PS12BAT/blob/main/NV-PS12BAT.png?raw=true)
 
 ## Discord Server
