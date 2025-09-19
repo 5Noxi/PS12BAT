@@ -12,7 +12,7 @@ PS code:
 Write-Host "Noverse" -ForegroundColor Blue
 pause
 ```
-Converted batch code:
+Converted PS (batch) code:
 ```bat
 @echo off
 setlocal enabledelayedexpansion
